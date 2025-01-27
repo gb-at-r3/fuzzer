@@ -1,0 +1,50 @@
+{
+    "API_Nickname":"|blah",
+    "API_Collection":"Blah blah",
+    "API_structure": "https://hostname.tld:port/path/to/bin/ver012/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key",
+    "credentials": {
+        "User": {
+            "API_key": "zizzarzaz123",
+            "API_secret": "sotrope22345!!!"
+        },
+        "SuperUser": {
+            "API_key": "zizzarzaz123456",
+            "API_secret": "sotrope223456789!!!"
+        },
+        "Hacker": {
+            "API_key": "zazezizozu",
+            "API_secret": "frepopopopo!!!"
+        }
+    },
+    "variable_domains": [
+        {
+            "variable": "var1",
+            "domain": "positive integer"
+        },
+        {
+            "variable": "var2",
+            "domain": "date"
+        },
+        {
+            "variable": "var3",
+            "domain": "uuid"
+        },
+        {
+            "variable": "ver",
+            "domain": "versions"
+        }
+    ],
+    "API_KEY_VAR":{
+        "var name":"api key var",
+        "domain":"string"
+    },
+    "API_SECRET_VAR":{
+        "var name":"api secret var",
+        "domain":"string"
+    },
+    "Payload": ["JSON", "RAW", "BINARY","NONE"],
+    "auth_methods": ["Basic", "URI", "JWT"],
+    "jwt_key": "X508",
+    "has_versioning":true
+}
+

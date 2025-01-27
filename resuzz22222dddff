@@ -1,0 +1,1647 @@
+
+
+================================================
+FUZZER 0.7.0
+2025 - Gabriele Biondo <<dopo ci metto la mail>>
+================================================
+[2025-01-07 15:47:15] - Loading File: /Users/gabrielebiondo/Documents/Rust/fuzzer/src/config.json
+[2025-01-07 15:47:15] - JSON loaded into struct
+[2025-01-07 15:47:15] - JSON file loaded into struct
+[2025-01-07 15:47:15] - Starting versioning_test process...
+[2025-01-07 15:47:15] - Found Regular User Key: zizzarzaz123
+[2025-01-07 15:47:15] - Found Regular User Secret: sotrope22345!!!
+[2025-01-07 15:47:15] - Versioning available. Generating calls to implement API9:2023 - Improper Inventory Management
+[2025-01-07 15:47:15] - Started parsing version variable...
+[2025-01-07 15:47:15] - Finished parsing version variable.
+[2025-01-07 15:47:15] - splitVer completed. Prolog: 'https://hostname.tld:port/path/to/bin/', Variable: 'ver012', Epilog: '/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key'
+[2025-01-07 15:47:15] - splitVer completed. Prolog: 'https://hostname.tld:port/path/to/bin/', Variable: 'ver012', Epilog: '/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key'
+[2025-01-07 15:47:15] - Generated URL for version v1: https://hostname.tld:port/path/to/bin/v1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1: https://hostname.tld:port/path/to/bin/verv1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2: https://hostname.tld:port/path/to/bin/v2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2: https://hostname.tld:port/path/to/bin/verv2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v3: https://hostname.tld:port/path/to/bin/v3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv3: https://hostname.tld:port/path/to/bin/verv3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v4: https://hostname.tld:port/path/to/bin/v4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv4: https://hostname.tld:port/path/to/bin/verv4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v5: https://hostname.tld:port/path/to/bin/v5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv5: https://hostname.tld:port/path/to/bin/verv5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v1.0: https://hostname.tld:port/path/to/bin/v1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1.0: https://hostname.tld:port/path/to/bin/verv1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v1.1: https://hostname.tld:port/path/to/bin/v1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1.1: https://hostname.tld:port/path/to/bin/verv1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2.0: https://hostname.tld:port/path/to/bin/v2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2.0: https://hostname.tld:port/path/to/bin/verv2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2.1: https://hostname.tld:port/path/to/bin/v2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2.1: https://hostname.tld:port/path/to/bin/verv2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v3.0: https://hostname.tld:port/path/to/bin/v3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv3.0: https://hostname.tld:port/path/to/bin/verv3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v0.1: https://hostname.tld:port/path/to/bin/v0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv0.1: https://hostname.tld:port/path/to/bin/verv0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v0.2: https://hostname.tld:port/path/to/bin/v0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv0.2: https://hostname.tld:port/path/to/bin/verv0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v0.3: https://hostname.tld:port/path/to/bin/v0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv0.3: https://hostname.tld:port/path/to/bin/verv0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 1: https://hostname.tld:port/path/to/bin/1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver1: https://hostname.tld:port/path/to/bin/ver1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 2: https://hostname.tld:port/path/to/bin/2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver2: https://hostname.tld:port/path/to/bin/ver2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 3: https://hostname.tld:port/path/to/bin/3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver3: https://hostname.tld:port/path/to/bin/ver3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 4: https://hostname.tld:port/path/to/bin/4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver4: https://hostname.tld:port/path/to/bin/ver4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 5: https://hostname.tld:port/path/to/bin/5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver5: https://hostname.tld:port/path/to/bin/ver5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version alpha: https://hostname.tld:port/path/to/bin/alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version veralpha: https://hostname.tld:port/path/to/bin/veralpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version beta: https://hostname.tld:port/path/to/bin/beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verbeta: https://hostname.tld:port/path/to/bin/verbeta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version gamma: https://hostname.tld:port/path/to/bin/gamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version vergamma: https://hostname.tld:port/path/to/bin/vergamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version rc1: https://hostname.tld:port/path/to/bin/rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verrc1: https://hostname.tld:port/path/to/bin/verrc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version rc2: https://hostname.tld:port/path/to/bin/rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verrc2: https://hostname.tld:port/path/to/bin/verrc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version rc3: https://hostname.tld:port/path/to/bin/rc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verrc3: https://hostname.tld:port/path/to/bin/verrc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version release-candidate: https://hostname.tld:port/path/to/bin/release-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verrelease-candidate: https://hostname.tld:port/path/to/bin/verrelease-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version test1: https://hostname.tld:port/path/to/bin/test1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version vertest1: https://hostname.tld:port/path/to/bin/vertest1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version test2: https://hostname.tld:port/path/to/bin/test2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version vertest2: https://hostname.tld:port/path/to/bin/vertest2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version dev: https://hostname.tld:port/path/to/bin/dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verdev: https://hostname.tld:port/path/to/bin/verdev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version debug: https://hostname.tld:port/path/to/bin/debug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verdebug: https://hostname.tld:port/path/to/bin/verdebug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version qa1: https://hostname.tld:port/path/to/bin/qa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verqa1: https://hostname.tld:port/path/to/bin/verqa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version qa2: https://hostname.tld:port/path/to/bin/qa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verqa2: https://hostname.tld:port/path/to/bin/verqa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version staging: https://hostname.tld:port/path/to/bin/staging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verstaging: https://hostname.tld:port/path/to/bin/verstaging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version stable: https://hostname.tld:port/path/to/bin/stable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verstable: https://hostname.tld:port/path/to/bin/verstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version unstable: https://hostname.tld:port/path/to/bin/unstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verunstable: https://hostname.tld:port/path/to/bin/verunstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version latest: https://hostname.tld:port/path/to/bin/latest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verlatest: https://hostname.tld:port/path/to/bin/verlatest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version deprecated: https://hostname.tld:port/path/to/bin/deprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verdeprecated: https://hostname.tld:port/path/to/bin/verdeprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version legacy: https://hostname.tld:port/path/to/bin/legacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verlegacy: https://hostname.tld:port/path/to/bin/verlegacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version obsolete: https://hostname.tld:port/path/to/bin/obsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verobsolete: https://hostname.tld:port/path/to/bin/verobsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version preview: https://hostname.tld:port/path/to/bin/preview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verpreview: https://hostname.tld:port/path/to/bin/verpreview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version snapshot: https://hostname.tld:port/path/to/bin/snapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version versnapshot: https://hostname.tld:port/path/to/bin/versnapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2023: https://hostname.tld:port/path/to/bin/v2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2023: https://hostname.tld:port/path/to/bin/verv2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2024: https://hostname.tld:port/path/to/bin/v2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2024: https://hostname.tld:port/path/to/bin/verv2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2025: https://hostname.tld:port/path/to/bin/v2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2025: https://hostname.tld:port/path/to/bin/verv2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 2023-01: https://hostname.tld:port/path/to/bin/2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver2023-01: https://hostname.tld:port/path/to/bin/ver2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 2024-02: https://hostname.tld:port/path/to/bin/2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver2024-02: https://hostname.tld:port/path/to/bin/ver2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 2025-03: https://hostname.tld:port/path/to/bin/2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver2025-03: https://hostname.tld:port/path/to/bin/ver2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v1-2023: https://hostname.tld:port/path/to/bin/v1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1-2023: https://hostname.tld:port/path/to/bin/verv1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2-2024: https://hostname.tld:port/path/to/bin/v2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2-2024: https://hostname.tld:port/path/to/bin/verv2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v1_2023: https://hostname.tld:port/path/to/bin/v1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1_2023: https://hostname.tld:port/path/to/bin/verv1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2_2024: https://hostname.tld:port/path/to/bin/v2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2_2024: https://hostname.tld:port/path/to/bin/verv2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v1-beta: https://hostname.tld:port/path/to/bin/v1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1-beta: https://hostname.tld:port/path/to/bin/verv1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2-alpha: https://hostname.tld:port/path/to/bin/v2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2-alpha: https://hostname.tld:port/path/to/bin/verv2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v3-rc1: https://hostname.tld:port/path/to/bin/v3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv3-rc1: https://hostname.tld:port/path/to/bin/verv3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v1a: https://hostname.tld:port/path/to/bin/v1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1a: https://hostname.tld:port/path/to/bin/verv1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2a: https://hostname.tld:port/path/to/bin/v2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2a: https://hostname.tld:port/path/to/bin/verv2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v3b: https://hostname.tld:port/path/to/bin/v3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv3b: https://hostname.tld:port/path/to/bin/verv3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v1-final: https://hostname.tld:port/path/to/bin/v1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1-final: https://hostname.tld:port/path/to/bin/verv1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2-final: https://hostname.tld:port/path/to/bin/v2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2-final: https://hostname.tld:port/path/to/bin/verv2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v3-release: https://hostname.tld:port/path/to/bin/v3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv3-release: https://hostname.tld:port/path/to/bin/verv3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v1-dev: https://hostname.tld:port/path/to/bin/v1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv1-dev: https://hostname.tld:port/path/to/bin/verv1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v2-test: https://hostname.tld:port/path/to/bin/v2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv2-test: https://hostname.tld:port/path/to/bin/verv2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version v3-qa: https://hostname.tld:port/path/to/bin/v3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verv3-qa: https://hostname.tld:port/path/to/bin/verv3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 1.0.0: https://hostname.tld:port/path/to/bin/1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver1.0.0: https://hostname.tld:port/path/to/bin/ver1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 1.0.1: https://hostname.tld:port/path/to/bin/1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver1.0.1: https://hostname.tld:port/path/to/bin/ver1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 1.1.0: https://hostname.tld:port/path/to/bin/1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver1.1.0: https://hostname.tld:port/path/to/bin/ver1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 2.0.0: https://hostname.tld:port/path/to/bin/2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver2.0.0: https://hostname.tld:port/path/to/bin/ver2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 1.0.0-beta: https://hostname.tld:port/path/to/bin/1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver1.0.0-beta: https://hostname.tld:port/path/to/bin/ver1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 1.0.0-alpha: https://hostname.tld:port/path/to/bin/1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver1.0.0-alpha: https://hostname.tld:port/path/to/bin/ver1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 2.0.0-rc1: https://hostname.tld:port/path/to/bin/2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver2.0.0-rc1: https://hostname.tld:port/path/to/bin/ver2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version 2.0.0-rc2: https://hostname.tld:port/path/to/bin/2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver2.0.0-rc2: https://hostname.tld:port/path/to/bin/ver2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version null: https://hostname.tld:port/path/to/bin/null/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version vernull: https://hostname.tld:port/path/to/bin/vernull/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version undefined: https://hostname.tld:port/path/to/bin/undefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verundefined: https://hostname.tld:port/path/to/bin/verundefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version default: https://hostname.tld:port/path/to/bin/default/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verdefault: https://hostname.tld:port/path/to/bin/verdefault/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version vX: https://hostname.tld:port/path/to/bin/vX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version vervX: https://hostname.tld:port/path/to/bin/vervX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version vY: https://hostname.tld:port/path/to/bin/vY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version vervY: https://hostname.tld:port/path/to/bin/vervY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version vZ: https://hostname.tld:port/path/to/bin/vZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version vervZ: https://hostname.tld:port/path/to/bin/vervZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version any: https://hostname.tld:port/path/to/bin/any/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verany: https://hostname.tld:port/path/to/bin/verany/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version all: https://hostname.tld:port/path/to/bin/all/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verall: https://hostname.tld:port/path/to/bin/verall/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version *: https://hostname.tld:port/path/to/bin/*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version ver*: https://hostname.tld:port/path/to/bin/ver*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version empty: https://hostname.tld:port/path/to/bin/empty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version verempty: https://hostname.tld:port/path/to/bin/verempty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for version none: https://hostname.tld:port/path/to/bin/none/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Generated URL for prefixed version vernone: https://hostname.tld:port/path/to/bin/vernone/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Versioning calls generated: 162
+[2025-01-07 15:47:15] - Found Regular User Key: zizzarzaz123
+[2025-01-07 15:47:15] - Found Regular User Secret: sotrope22345!!!
+[2025-01-07 15:47:15] - API Key variable name: API_key
+[2025-01-07 15:47:15] - API Key secret name: API_secret
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/veralpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/veralpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verbeta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verbeta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/gamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/gamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vergamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vergamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verrc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verrc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verrc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verrc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/rc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/rc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verrc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verrc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/release-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/release-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verrelease-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verrelease-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/test1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/test1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vertest1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vertest1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/test2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/test2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vertest2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vertest2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verdev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verdev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/debug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/debug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verdebug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verdebug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/qa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/qa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verqa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verqa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/qa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/qa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verqa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verqa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/staging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/staging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verstaging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verstaging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/stable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/stable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/unstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/unstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verunstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verunstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/latest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/latest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verlatest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verlatest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/deprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/deprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verdeprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verdeprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/legacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/legacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verlegacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verlegacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/obsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/obsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verobsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verobsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/preview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/preview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verpreview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verpreview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/snapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/snapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/versnapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/versnapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/v3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/v3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verv3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verv3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/null/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/null/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vernull/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vernull/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/undefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/undefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verundefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verundefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/default/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/default/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verdefault/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verdefault/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vervX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vervX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vervY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vervY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vervZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vervZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/any/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/any/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verany/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verany/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/all/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/all/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verall/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verall/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/ver*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/ver*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/empty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/empty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/verempty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/verempty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/none/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/none/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - Original URL: https://hostname.tld:port/path/to/bin/vernone/endpoint?var1=val1&var2=val2&var3=val3&API_secret=secret&API_key=key
+[2025-01-07 15:47:15] - Modifying with: key=API_key secret=API_secret -> zizzarzaz123:sotrope22345!!!
+[2025-01-07 15:47:15] - Obtaining: https://hostname.tld:port/path/to/bin/vernone/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123
+[2025-01-07 15:47:15] - API Key variable name: API_key
+[2025-01-07 15:47:15] - API Key secret name: API_secret
+[2025-01-07 15:47:15] - Found super user credentials: biecobatrace:afhefhignoh
+[2025-01-07 15:47:16] - Total calls after adding credentials: 324
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v4", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv4", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v5", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv5", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v3.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv3.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v0.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv0.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v0.2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv0.2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v0.3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv0.3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 4", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver4", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 5", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver5", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/veralpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version veralpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verbeta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verbeta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/gamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version gamma", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vergamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version vergamma", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verrc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verrc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version rc2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verrc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verrc2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/rc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version rc3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verrc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verrc3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/release-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version release-candidate", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verrelease-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verrelease-candidate", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/test1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version test1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vertest1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version vertest1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/test2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version test2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vertest2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version vertest2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version dev", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verdev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verdev", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/debug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version debug", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verdebug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verdebug", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/qa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version qa1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verqa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verqa1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/qa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version qa2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verqa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verqa2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/staging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version staging", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verstaging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verstaging", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/stable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version stable", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verstable", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/unstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version unstable", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verunstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verunstable", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/latest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version latest", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verlatest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verlatest", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/deprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version deprecated", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verdeprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verdeprecated", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/legacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version legacy", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verlegacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verlegacy", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/obsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version obsolete", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verobsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verobsolete", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/preview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version preview", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verpreview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verpreview", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/snapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version snapshot", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/versnapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version versnapshot", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2025", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2025", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 2023-01", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver2023-01", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 2024-02", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver2024-02", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 2025-03", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver2025-03", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1-2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1-2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2-2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2-2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1_2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1_2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2_2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2_2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1-beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1-beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2-alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2-alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v3-rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv3-rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1a", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1a", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2a", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2a", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v3b", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv3b", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1-final", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1-final", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2-final", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2-final", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v3-release", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv3-release", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v1-dev", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv1-dev", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v2-test", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv2-test", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version v3-qa", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verv3-qa", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 1.0.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver1.0.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 1.0.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver1.0.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 1.1.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver1.1.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 2.0.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver2.0.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 1.0.0-beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver1.0.0-beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 1.0.0-alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver1.0.0-alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 2.0.0-rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver2.0.0-rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version 2.0.0-rc2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver2.0.0-rc2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/null/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version null", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vernull/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version vernull", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/undefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version undefined", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verundefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verundefined", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/default/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version default", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verdefault/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verdefault", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version vX", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vervX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version vervX", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version vY", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vervY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version vervY", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version vZ", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vervZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version vervZ", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/any/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version any", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verany/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verany", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/all/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version all", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verall/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verall", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version *", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version ver*", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/empty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version empty", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verempty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version verempty", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/none/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing version none", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vernone/endpoint?var1=val1&var2=val2&var3=val3&API_secret=sotrope22345!!!&API_key=zizzarzaz123", test_type: Versioning, description: "Testing prefixed version vernone", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v4", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv4", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v5", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv5", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v3.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv3.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v0.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv0.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v0.2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv0.2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv0.2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v0.3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv0.3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv0.3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 4", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver4/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver4", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 5", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver5/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver5", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/veralpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version veralpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verbeta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verbeta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/gamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version gamma", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vergamma/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version vergamma", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verrc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verrc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version rc2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verrc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verrc2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/rc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version rc3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verrc3/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verrc3", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/release-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version release-candidate", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verrelease-candidate/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verrelease-candidate", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/test1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version test1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vertest1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version vertest1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/test2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version test2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vertest2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version vertest2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version dev", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verdev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verdev", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/debug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version debug", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verdebug/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verdebug", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/qa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version qa1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verqa1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verqa1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/qa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version qa2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verqa2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verqa2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/staging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version staging", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verstaging/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verstaging", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/stable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version stable", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verstable", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/unstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version unstable", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verunstable/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verunstable", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/latest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version latest", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verlatest/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verlatest", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/deprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version deprecated", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verdeprecated/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verdeprecated", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/legacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version legacy", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verlegacy/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verlegacy", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/obsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version obsolete", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verobsolete/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verobsolete", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/preview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version preview", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verpreview/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verpreview", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/snapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version snapshot", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/versnapshot/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version versnapshot", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2025", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2025/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2025", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 2023-01", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2023-01/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver2023-01", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 2024-02", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2024-02/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver2024-02", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 2025-03", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2025-03/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver2025-03", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1-2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1-2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1-2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2-2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2-2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2-2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1_2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1_2023/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1_2023", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2_2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2_2024/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2_2024", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1-beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1-beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2-alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2-alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v3-rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv3-rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1a", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1a", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2a", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2a/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2a", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v3b", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3b/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv3b", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1-final", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1-final", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2-final", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2-final/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2-final", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v3-release", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3-release/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv3-release", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v1-dev", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv1-dev/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv1-dev", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v2-test", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv2-test/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv2-test", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/v3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version v3-qa", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verv3-qa/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verv3-qa", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 1.0.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver1.0.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 1.0.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.0.1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver1.0.1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 1.1.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.1.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver1.1.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 2.0.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2.0.0/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver2.0.0", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 1.0.0-beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.0.0-beta/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver1.0.0-beta", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 1.0.0-alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver1.0.0-alpha/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver1.0.0-alpha", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 2.0.0-rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2.0.0-rc1/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver2.0.0-rc1", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version 2.0.0-rc2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver2.0.0-rc2/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver2.0.0-rc2", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/null/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version null", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vernull/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version vernull", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/undefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version undefined", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verundefined/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verundefined", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/default/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version default", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verdefault/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verdefault", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version vX", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vervX/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version vervX", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version vY", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vervY/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version vervY", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version vZ", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vervZ/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version vervZ", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/any/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version any", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verany/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verany", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/all/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version all", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verall/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verall", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version *", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/ver*/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version ver*", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/empty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version empty", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/verempty/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version verempty", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/none/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing version none", payload: None, auth_method: None }
+
+
+HttpTestCase { actual_url: "https://hostname.tld:port/path/to/bin/vernone/endpoint?var1=val1&var2=val2&var3=val3&API_secret=afhefhignoh&API_key=biecobatrace", test_type: Versioning, description: "(SU) Testing prefixed version vernone", payload: None, auth_method: None }
+
+[2025-01-07 15:47:16] - Execution finished with status: 0
