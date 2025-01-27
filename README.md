@@ -29,6 +29,9 @@ Before you can use the tool, ensure the following are installed:
    ```bash
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+
+
+
 ## Current status
 | **Attack Type**     | **No Encoding** | **URL Encoding** | **HTML Encoding** | **Base64** | **Base64 URL-Safe** | **Unicode Escaping** |
 |----------------------|-----------------|------------------|-------------------|------------|---------------------|----------------------|
@@ -43,5 +46,5 @@ Before you can use the tool, ensure the following are installed:
 | **XPath Injection**  | 🔲              | 🔲               | 🔲                | 🔲         | 🔲                  | 🔲                   |
 | **LDAP Injection**   | 🔲              | 🔲               | 🔲                | 🔲         | 🔲                  | 🔲                   |
 
-#Installation
+
 
